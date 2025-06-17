@@ -276,7 +276,7 @@ body{
   margin-top: 12px; 
   margin-left: 15px;
   margin-right: 17px;
-  
+
 }
 html{
   scroll-behavior: smooth;
@@ -285,7 +285,9 @@ html{
 
 a:hover i.fab.fa-instagram {
   color: #c13584;
+  text-shadow: 0 0 0px #f70b94, 0 0 5px #f70b94, 0 0 5px #f70b94;
 }
 a:hover i.fab.fa-linkedin {
   color: #005582;
+  text-shadow: 0 0 0px #66FCF1, 0 0 5px #66FCF1, 0 0 5px #66FCF1;
 }
