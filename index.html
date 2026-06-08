@@ -1,54 +1,288 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Sridharan_Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sridharan I - Full Stack Developer</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class = "header">
-      <!-- <div class="hi">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div> -->
-      <div class="pro"><a href="#video">Profile</a></div>
-      <div class="pro"><a href="#video">About</a></div>
-      <div class="pro"><a href="#footer">Contact</a></div>
-      <div class="pro"><a href="https://sridharan16.neocities.org/Event/event" target="_blank">Blog</a></div>
-    </div>
-    <div class=" hole" id="intro">
-
-      <div class="container">
-        <div class="para">
-          <h1 class="title">Sridharan I </h1>
-          <p style="font-size: 25px;" >I am student of the kit and right now</p>
-          <p id="currentTime" class="time"></p>
+    <!-- Navigation Header -->
+    <nav class="header">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#home"><span class="logo-text">Sridharan</span></a>
         </div>
-        <IMG SRC="img\WhatsApp Image 2025-06-16 at 19.42.44_5f5d40bd.jpg" alt="Sridharan I" class="avatar" >
-          <script src="script.js"></script>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
-    <section id="video">
+    </nav>
 
-      <div class="video">
-        <iframe width="560px" height="315px" src="https://www.youtube.com/embed/_NgS00ReTUg?si=STQNQD2s5kkN824s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube"></iframe>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="title">Hi, I'm <span class="highlight">Sridharan</span></h1>
+          <p class="subtitle">Full Stack Developer | UI/UX Enthusiast | Tech Innovator</p>
+          <p class="description">
+            Passionate about building beautiful and functional web applications. 
+            Currently a student at KIT, crafting digital solutions with modern technologies.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#footer" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="img/WhatsApp Image 2025-06-16 at 19.42.44_5f5d40bd.jpg"
+            alt="Sridharan I"
+            class="avatar"
+          />
+        </div>
       </div>
-      </section>
-      <div class="footer" id="footer">
-        <p>© 2025 Sridharan I. All rights reserved.  Follow me on
-          <a href="https://www.instagram.com/sridharan__16?igsh=ZWlrNWh1cDIzbGQy" target="_blank" style="color: #e1306c; text-decoration: none;">
-            <i class="fab fa-instagram"></i>
-          </a> 
-          and 
-          <a href="https://www.linkedin.com/in/sridharan-i16/" target="_blank" style="color: #0077b5; text-decoration: none;">
-            <i class="fab fa-linkedin" style="font-size: 20px;"></i>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="section-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate developer with a keen interest in creating exceptional digital experiences. 
+              With a strong foundation in web development, I specialize in building responsive and 
+              user-centric applications.
+            </p>
+            <p>
+              Whether it's frontend design or backend logic, I'm committed to writing clean, 
+              efficient code that makes a difference. I love learning new technologies and 
+              staying updated with industry trends.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>50+</h3>
+                <p>Projects</p>
+              </div>
+              <div class="stat">
+                <h3>100%</h3>
+                <p>Commitment</p>
+              </div>
+              <div class="stat">
+                <h3>∞</h3>
+                <p>Growth Mindset</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-video">
+            <iframe
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/_NgS00ReTUg?si=STQNQD2s5kkN824s"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="section-container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-title">Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-title">Backend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">Databases</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-title">Tools & Platforms</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="section-container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/300x200?text=Project+1" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">
+                A modern, responsive portfolio showcasing my work with smooth animations 
+                and interactive elements.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/300x200?text=Project+2" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Task Management App</h3>
+              <p class="project-description">
+                Full-stack application for managing tasks with real-time updates 
+                and persistent storage.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/300x200?text=Project+3" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <p class="project-description">
+                A fully functional e-commerce platform with payment integration 
+                and user authentication.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Stripe</span>
+                <span>Firebase</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-all">
+          <a href="https://github.com/Sridharan-16" target="_blank" class="btn btn-primary">
+            View All Projects on GitHub
           </a>
-        </p>
-      
+        </div>
       </div>
+    </section>
+
+    <!-- Footer/Contact Section -->
+    <footer id="footer" class="footer">
+      <div class="section-container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out. I'm always interested in hearing about new projects and opportunities.</p>
+            <a href="mailto:kit27.am53@gmail.com" class="btn btn-primary"
+              >Send Me an Email</a
+            >
+          </div>
+
+          <div class="footer-section">
+            <h3>Follow Me</h3>
+            <div class="social-links">
+              <a href="https://www.instagram.com/sridharan__16?igsh=ZWlrNWh1cDIzbGQy" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.linkedin.com/in/sridharan-i16/" target="_blank" class="social-icon linkedin">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/Sridharan-16" target="_blank" class="social-icon github">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 <span class="highlight">Sridharan I</span>. All rights reserved.</p>
+          <p class="footer-time">
+            Current Time: <span id="currentTime"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
-
-
